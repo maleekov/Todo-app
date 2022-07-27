@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.container{
+    margin-top: 1.25em;
+}
+.card-header{
+    background-color: #e0fb6e;
+    color: rgba(70, 70, 70, 0.486);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.add-btn{
+    background-color: #75fbae;
+    color: rgba(53, 53, 53, 0.753);
+    transition: all 0.5s ease-in-out;
+}
+.add-btn:hover{
+    color: rgba(53, 53, 53, 0.753);
+    transform: scale(1.06);
+}
+.clear-btn{
+    background-color: #98d7fb;
+    color: rgb(83, 83, 83);
+    transition: all 0.5s ease-in-out;
+}
+.clear-btn:hover{
+    transform: scale(1.06);
+    color: rgb(83, 83, 83) ;
+}
+.list-group-item:nth-child(odd){
+    background-color: #c5a8f9;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.25em;
+}
+.list-group-item:nth-child(even){
+    border:1px solid #c5a8f9;
+    color: rgba(0, 0, 0, 0.671);
+    margin-bottom: 0.25em;
+}
+
+.fa-remove:nth-child(odd){
+    color: rgba(71, 71, 71, 0.493) ;
+}
